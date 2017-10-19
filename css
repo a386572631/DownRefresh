@@ -1,0 +1,41 @@
+<style type="text/css">
+    body{margin: 0;}
+    ul{list-style: none;padding: 0;}
+    li{
+        height: 30px;
+        border-bottom: 1px solid #ddd;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+    .scroller .loading{
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        width: 100%;
+        /*background-color: #f1f1f1;*/
+    }
+    .scroller{
+        -webkit-overflow-scrolling:touch;
+    }
+    /*下拉加载*/
+    #FreshLoad{display: inline-block;margin: 0 auto;}
+    #FreshLoad li{
+        float: left;border: none;line-height: 50px;
+    }
+    #FreshLoad li span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: #ccc;
+    }
+    #FreshLoad.each1 li:nth-child(1) span{
+        background-color: #ddd;
+    }
+    #FreshLoad.each2 li:nth-child(2) span{
+        background-color: #ddd;
+    }
+    #FreshLoad.each3 li:nth-child(3) span{
+        background-color: #ddd;
+    }
+</style>
